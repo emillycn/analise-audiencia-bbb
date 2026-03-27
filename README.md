@@ -1,3 +1,16 @@
+# 📺 BBB: Impacto da Grade Flutuante na Audiência Digital
+> **Estudo de caso sobre o impacto do futebol e da grade flutuante no engajamento em tempo real.**
+
+## 📌 Contexto do Projeto
+No ecossistema da **Globo**, a grade de programação é viva. Em noites de futebol, o início do reality sofre um deslocamento (atraso), gerando um fenômeno de "grade flutuante". 
+
+Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear como o público digital se comporta diante dessa variação. O objetivo é validar se o interesse do usuário é "elástico" (acompanha o atraso) ou se há perda de engajamento quando o programa começa mais tarde.
+
+## 🛠️ Tecnologias & Conceitos
+* **Linguagem:** Python (Pandas, Seaborn, Matplotlib)
+* **Metodologia:** Análise de Séries Temporais e Data Humanism.
+* **Abordagem:** Transformação de dados brutos de busca em insights de comportamento de audiência.
+
 # Impacto da Grade Flutuante 🤸🏻‍♀️
 
 **Objeto de Estudo:** Análise do deslocamento do pico de interesse digital na **Quarta-feira (18/03)**, dia em que o horário de exibição do BBB é postergado devido à transmissão do Futebol, em comparação à **Terça-feira (17/03)**.
