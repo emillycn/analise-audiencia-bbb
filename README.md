@@ -8,7 +8,7 @@ Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear com
 
 ## 🛠️ Tecnologias & Conceitos
 * **Linguagem:** Python (Pandas, Seaborn, Matplotlib)
-* **Metodologia:** Análise de Séries Temporais e Data Humanism.
+* **Metodologia:** Análise de Séries Temporais e Data Storytelling.
 * **Abordagem:** Transformação de dados brutos de busca em insights de comportamento de audiência.
 
 # Impacto da Grade Flutuante 🤸🏻‍♀️
@@ -110,7 +110,7 @@ Para uma emissora do porte da Globo, esses insights geram recomendações acion�
 A robustez desta análise reside na utilização de Python para a extração e tratamento de séries temporais.
 
 - **Tratamento de Dados:** Utilização de bibliotecas `pandas` e `pytrends` para normalização de índices de busca.
-- **DataViz Profissional:** Construção de narrativas visuais via `matplotlib`, priorizando a hierarquia de informações, limpeza estética e precisão de eixos temporais para garantir comparabilidade entre diferentes dias da semana.
+- **Visualização dos Dados:** Construção de narrativas visuais via `matplotlib`, priorizando a hierarquia de informações, limpeza estética e precisão de eixos temporais para garantir comparabilidade entre diferentes dias da semana.
 
 ## Outras investigações interessantes
 
