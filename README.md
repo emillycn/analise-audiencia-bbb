@@ -1,10 +1,15 @@
 # BBB: Análise de comportamento de audiência digital 
 > **Estudo de caso sobre o impacto do futebol e da grade flutuante no engajamento em tempo real.**
 
+<<<<<<< HEAD
 ## Contexto do Projeto
 No ecossistema da **Globo**, a grade de programação é viva. Em noites de futebol, o início do reality sofre um deslocamento (atraso), gerando um fenômeno de "grade flutuante". 
+=======
+## 📌 Contexto do Projeto
+No contexto da Globo, a grade de programação é viva. Em noites de futebol, o início do reality sofre um deslocamento (atraso), gerando um fenômeno de "grade flutuante". 
+>>>>>>> b9821d728dd30ba40c405f2787837faa47e709d7
 
-Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear como o público digital se comporta diante dessa variação. O objetivo é validar se o interesse do usuário é "elástico" (acompanha o atraso) ou se há perda de engajamento quando o programa começa mais tarde.
+Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear como o público digital se comporta diante dessa variação. O objetivo é validar se o interesse do usuário é flexível (acompanha o atraso) ou se há perda de engajamento quando o programa começa mais tarde.
 
 ## Tecnologias & Conceitos
 * **Linguagem:** Python (Pandas, Seaborn, Matplotlib)
