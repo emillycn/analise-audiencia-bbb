@@ -37,7 +37,7 @@ Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear com
 - **Para a Programação:** A fidelidade do público é alta o suficiente para suportar um atraso de 30-40 minutos sem "perder" o pico de interesse, que apenas se desloca no tempo.
 - **Para o Comercial:** Anúncios digitais e posts patrocinados programados para as 22h30 na quarta-feira teriam um ROI (retorno sobre investimento) muito menor do que se fossem entregues às 23h15. A precisão do *timing* é tudo.
 
-# Entrega de Audiência (Futebol x Novela) 📺
+# Entrega de Audiência (Futebol x Novela) 
 
 **Objeto de Estudo:** Comparação da curva de engajamento digital (Google Trends) nos primeiros 60 minutos do BBB após dois contextos de grade distintos: **Quarta-feira (Pós-Futebol)** e **Quinta-feira (Pós-Novela)**.
 
