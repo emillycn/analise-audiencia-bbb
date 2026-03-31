@@ -1,17 +1,17 @@
-# 📺 BBB: Impacto da Grade Flutuante na Audiência Digital
+# BBB: Análise de comportamento de audiência digital 
 > **Estudo de caso sobre o impacto do futebol e da grade flutuante no engajamento em tempo real.**
 
-## 📌 Contexto do Projeto
+## Contexto do Projeto
 No ecossistema da **Globo**, a grade de programação é viva. Em noites de futebol, o início do reality sofre um deslocamento (atraso), gerando um fenômeno de "grade flutuante". 
 
 Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear como o público digital se comporta diante dessa variação. O objetivo é validar se o interesse do usuário é "elástico" (acompanha o atraso) ou se há perda de engajamento quando o programa começa mais tarde.
 
-## 🛠️ Tecnologias & Conceitos
+## Tecnologias & Conceitos
 * **Linguagem:** Python (Pandas, Seaborn, Matplotlib)
 * **Metodologia:** Análise de Séries Temporais e Data Storytelling.
 * **Abordagem:** Transformação de dados brutos de busca em insights de comportamento de audiência.
 
-# Impacto da Grade Flutuante 🤸🏻‍♀️
+# Impacto da Grade Flutuante 
 
 **Objeto de Estudo:** Análise do deslocamento do pico de interesse digital na **Quarta-feira (18/03)**, dia em que o horário de exibição do BBB é postergado devido à transmissão do Futebol, em comparação à **Terça-feira (17/03)**.
 
@@ -20,7 +20,7 @@ Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear com
   <p><i>Figura 1: Deslocamento de pico de interesse pós-futebol.</i></p>
 </div>
 
-### 🔍 Principais Descobertas (Insights)
+### Principais Descobertas (Insights)
 
 1. **O Fenômeno do Deslocamento (Shift):**
     - O gráfico demonstra que o comportamento de busca não é fixo no relógio, mas sim **escravo da tela**. Na quarta-feira, o volume de interesse só começa a escalar significativamente após as **23:00**, exatamente 35 minutos após o horário padrão de terça-feira.
@@ -32,7 +32,7 @@ Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear com
     - Devido ao início tardio, o engajamento digital se estende até **01:00**, mantendo níveis de busca mais altos na madrugada do que nos dias de grade normal.
     - **Conclusão:** O "atraso" empurra a conversão digital para um horário onde a atenção do usuário é mais exclusiva, porém o volume total de pessoas acordadas é menor.
 
-### 💡 Valor para o Negócio
+### Valor para o Negócio
 
 - **Para a Programação:** A fidelidade do público é alta o suficiente para suportar um atraso de 30-40 minutos sem "perder" o pico de interesse, que apenas se desloca no tempo.
 - **Para o Comercial:** Anúncios digitais e posts patrocinados programados para as 22h30 na quarta-feira teriam um ROI (retorno sobre investimento) muito menor do que se fossem entregues às 23h15. A precisão do *timing* é tudo.
@@ -46,7 +46,7 @@ Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear com
   <p><i>Figura 2: Audiência pós futebol vs novela.</i></p>
 </div>
 
-### 🔍 Principais Descobertas (Insights)
+### Principais Descobertas (Insights)
 
 1. **A Explosão do Futebol (Adrenalina):**
     - O gráfico revela um **"Pico de Adrenalina"** imediato na quarta-feira. Assim que o jogo termina, há um disparo vertical nas buscas.
@@ -57,12 +57,12 @@ Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear com
 3. **O Cruzamento de Curvas (Retenção):**
     - Após os 35 minutos iniciais, as curvas tendem a se equilibrar. Isso mostra que, independente de quem entrega a audiência, o conteúdo do programa assume o controle do engajamento após a primeira meia hora.
 
-### 💡 Valor para o Negócio
+### Valor para o Negócio
 
 - **Para o Marketing:** Campanhas de grande impacto (lançamentos de patrocinadores) devem ser concentradas nos primeiros **15 minutos** da quarta-feira para aproveitar o fluxo migratório do futebol.
 - **Para a Programação:** O futebol funciona como um "turbo" digital, enquanto a novela funciona como um "estabilizador" de audiência.
 
-# A Recuperação de Faixa💡
+# A Recuperação de Faixa 
 
 **Objeto de Estudo:** Análise da recuperação da audiência digital na **Quinta-feira (19/03)**, comparando-a com a **Terça-feira (17/03)**, para medir o impacto do desgaste gerado pelo atraso na grade da noite anterior.
 
@@ -71,7 +71,7 @@ Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear com
   <p><i>Figura 3: Recuperação de faixa.</i></p>
 </div>
 
-### 🔍 Principais Descobertas (Insights)
+### Principais Descobertas (Insights)
 
 1. **A Força do Hábito (Sincronia):**
     - Mesmo após o desvio de horário na quarta-feira, o público demonstra uma fidelidade biológica ao programa. O início da subida de buscas ocorre precisamente às **22:25**, provando que o telespectador retoma o hábito assim que a grade é normalizada.
@@ -82,22 +82,22 @@ Este projeto utiliza **Python** e **Data Mining** (via Pytrends) para mapear com
 3. **Janela de Retenção (21h - 01h):**
     - O comportamento pré-programa (21h às 22h15) permanece idêntico em ambos os dias, sugerindo que a "expectativa" não muda, apenas a capacidade de sustentação do pico de busca durante a madrugada.
 
-### 💡 Valor para o Negócio
+### Valor para o Negócio
 
 - **Para a Programação:** O atraso sistemático da grade não é inofensivo; ele gera um efeito cascata de desgaste que reduz o potencial de engajamento do dia subsequente.
 - **Para o Comercial:** Dias de "recuperação" (como a quinta-feira) são ideais para comunicações mais diretas e curtas, respeitando o menor limiar de atenção de uma audiência que vem de uma noite de sono reduzida.
 
-## 🏁 Conclusão Gerais
+## Conclusão Gerais
 
 Este projeto demonstrou que a audiência do Big Brother Brasil não é um bloco estático, mas um ecossistema fluido que reage em tempo real às alterações da grade de programação e ao perfil do conteúdo antecedente (*lead-in*).
 
-### 1. Visão Crítica: O Comportamento Adaptável 🕵🏻‍♂️
+### 1. Visão Crítica: O Comportamento Adaptável 
 
 A análise comprovou a adaptabilidade **temporal** do público. Embora o "hábito" dite que o BBB deve começar às 22h25, o engajamento digital provou ser resiliente ao atraso do futebol, deslocando seu pico de interesse sem perda volumétrica imediata (primeira análise).
 
 No entanto, essa elasticidade tem um limite: o **custo biológico**. A "ressaca" observada na quinta-feira (última análise) sugere que o engajamento tardio na quarta-feira consome o "capital de atenção" do espectador, resultando em uma performance 8% menor no dia seguinte.
 
-### 2. Implicações Estratégicas e de Negócio 💼
+### 2. Implicações Estratégicas e de Negócio 
 
 Para uma emissora do porte da Globo, esses insights geram recomendações acionáveis:
 
@@ -105,7 +105,7 @@ Para uma emissora do porte da Globo, esses insights geram recomendações acion�
 - **Mitigação de *Churn*:** O leve declínio na quinta-feira indica que a programação pode explorar conteúdos de "repescagem" ou dinâmicas mais ágeis em dias pós-futebol para reaquecer a audiência fatigada.
 - **Oportunidade de *Lead-in:*** O futebol não é apenas um "atrasador" de grade, mas um injetor de adrenalina. O perfil do público que migra do campo para a casa é mais propenso à busca ativa, o que favorece conversões rápidas (e-commerce e downloads de apps).
 
-### 3. Rigor Metodológico 📊
+### 3. Rigor Metodológico 
 
 A robustez desta análise reside na utilização de Python para a extração e tratamento de séries temporais.
 
